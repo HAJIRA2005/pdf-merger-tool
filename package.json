@@ -1,0 +1,19 @@
+{
+  "name": "pdf-merger-tool",
+  "version": "1.0.0",
+  "description": "Web app to upload and merge multiple PDFs into one.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["pdf", "merge", "express", "pdf-lib"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^2.0.1",
+    "pdf-lib": "^1.17.1"
+  }
+}
+
+
