@@ -1,5 +1,7 @@
 # PDF Merger Tool
 
+🔗 **GitHub Repository:** [https://github.com/HAJIRA2005/pdf-merger-tool](https://github.com/HAJIRA2005/pdf-merger-tool)
+
 A simple, modern web application to upload multiple PDFs and merge them into a single file.
 
 ## Features
@@ -118,9 +120,13 @@ See `GITHUB_SETUP.md` for detailed instructions.
 ### Using GitHub Container Registry
 After pushing to GitHub, pull and run:
 ```bash
-docker pull ghcr.io/YOUR_USERNAME/pdf-merger-tool:latest
-docker run -d -p 3000:3000 ghcr.io/YOUR_USERNAME/pdf-merger-tool:latest
+docker pull ghcr.io/HAJIRA2005/pdf-merger-tool:latest
+docker run -d -p 3000:3000 ghcr.io/HAJIRA2005/pdf-merger-tool:latest
 ```
+
+## 🔗 Repository
+
+**GitHub:** [https://github.com/HAJIRA2005/pdf-merger-tool](https://github.com/HAJIRA2005/pdf-merger-tool)
 
 ## License
 MIT
